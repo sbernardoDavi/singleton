@@ -8,6 +8,8 @@ public class TemperaturaDiaria {
         return instance;
     }
 
+    private Float grausCelsius;
+
     public Float getGrausCelsius() {
         return grausCelsius;
     }
@@ -15,6 +17,4 @@ public class TemperaturaDiaria {
     public void setGrausCelsius(Float grausCelsius) {
         this.grausCelsius = grausCelsius;
     }
-
-    private Float grausCelsius;
 }
